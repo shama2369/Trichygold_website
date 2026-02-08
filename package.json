@@ -1,0 +1,14 @@
+{
+  "name": "trichygold-website",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Select an app to run, e.g. cd apps/web'",
+    "lint": "echo 'Add linting per app'",
+    "test": "echo 'Add tests per app'"
+  }
+}
